@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mcdanix",
+    "module": "fastping",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.2.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "fastping-1.0.0.jar",
+          "url": "fastping-1.0.0.jar",
+          "size": 15356,
+          "sha512": "08b4768ce791b5eb7b8e73398221b84e40df5bab2076a64d4677fabe3310f1ff7e4b8affeb063eace9c3a25fb919178be355f2ab9219ad71b0558235473a835d",
+          "sha256": "2b2a5d1f9b47106b71aaf5d3a445fe8b92a38c793f1a9eb25ae864260754b015",
+          "sha1": "65d8c8509e956330f79ff833d1434860a72ae6d2",
+          "md5": "70319515b8fff5269812682a25859711"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.9"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.141.6+1.21.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fastping-1.0.0.jar",
+          "url": "fastping-1.0.0.jar",
+          "size": 15356,
+          "sha512": "08b4768ce791b5eb7b8e73398221b84e40df5bab2076a64d4677fabe3310f1ff7e4b8affeb063eace9c3a25fb919178be355f2ab9219ad71b0558235473a835d",
+          "sha256": "2b2a5d1f9b47106b71aaf5d3a445fe8b92a38c793f1a9eb25ae864260754b015",
+          "sha1": "65d8c8509e956330f79ff833d1434860a72ae6d2",
+          "md5": "70319515b8fff5269812682a25859711"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fastping-1.0.0-sources.jar",
+          "url": "fastping-1.0.0-sources.jar",
+          "size": 9239,
+          "sha512": "4cddd9d7d1fe0c05698f89a48903e9bb38ad4c4ca70756d077b2109e135f731e1df3c17d3fb695b530353c8c08b550f35a82867de8ea9992d4226427ab23c038",
+          "sha256": "0652a3fc4f0827d5bb4da44556f46356fd30852b625ca94bf648f8afb3f725ee",
+          "sha1": "089a7fd77ce0dc0b5f996245e098d0f46d2f1ad7",
+          "md5": "9d3a5a2efda7088cbbbe5ec25dc6900c"
+        }
+      ]
+    }
+  ]
+}

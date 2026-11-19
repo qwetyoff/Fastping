@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "fastping",
+  "version": "1.0.0",
+  "name": "FastPing",
+  "description": "Client-side ping marker on middle mouse.",
+  "authors": ["danuix"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.mcdanix.fastping.FastPingClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
