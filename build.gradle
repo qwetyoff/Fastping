@@ -29,7 +29,6 @@ java {
     targetCompatibility = JavaVersion.VERSION_21
 }
 
-// Публикует quickping-1.0.0.jar в ~/.m2 — оттуда его заберёт аддон.
 publishing {
     publications {
         mavenJava(MavenPublication) {
